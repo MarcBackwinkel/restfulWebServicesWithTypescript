@@ -60,3 +60,5 @@ export let getInventory = (req: Request, res: Response, next: NextFunction) => {
   const grouppedOrders = _.groupBy(inventoryOrders, 'userId')
   return res.status(200).send(grouppedOrders)
 }
+
+
