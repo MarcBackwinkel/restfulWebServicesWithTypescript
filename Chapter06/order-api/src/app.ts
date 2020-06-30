@@ -1,9 +1,10 @@
 import * as bodyParser from 'body-parser';
 import * as express from 'express';
 import { APIRoute } from '../src/routes/api';
-import { Index } from './routes';
 import { OrderRoute } from '../src/routes/order'
 import { UserRoute } from '../src/routes/user'
+import { Index } from './routes';
+
 
 class App {
     public app: express.Application

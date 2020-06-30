@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const bodyParser = require("body-parser");
 const express = require("express");
 const api_1 = require("../src/routes/api");
-const routes_1 = require("./routes");
 const order_1 = require("../src/routes/order");
 const user_1 = require("../src/routes/user");
+const routes_1 = require("./routes");
 class App {
     constructor() {
         this.indexRoutes = new routes_1.Index();

@@ -43,7 +43,7 @@ describe('userRoute', () => {
     it('should return the user created on the step before', async() => {
         return chai
             .request(app)
-            .get('/users/$(user.username)')
+            .get(`/users/${user.username}`)
             .then( res => {
                 expect(res.status).to.be.equal(200)
                 expect(res.body.username).to.be.equal(user.username)
@@ -60,7 +60,7 @@ describe('userRoute', () => {
 
         return chai
             .request(app)
-            .patch('/users/Jhon)')
+            .patch(`/users/John`)
             .send(user)
             .then( res => {
                 expect(res.status).to.be.equal(204)

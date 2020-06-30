@@ -1,0 +1,19 @@
+13:02:29 (71165) INFO ConfigReader Using stryker.conf.js in the current working directory.
+13:02:30 (71165) DEBUG BroadcastReporter Broadcasting to reporters ["html","progress","dashboard"]
+13:02:29 (71165) DEBUG ConfigReader Loading config stryker.conf.js
+13:02:29 (71165) DEBUG PluginLoader Loading @stryker-mutator/* from /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator
+13:02:29 (71165) DEBUG PluginLoader Loading plugin "/workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/html-reporter" (matched with expression @stryker-mutator/*)
+13:02:29 (71165) DEBUG PluginLoader Loading plugin "/workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/mocha-framework" (matched with expression @stryker-mutator/*)
+13:02:29 (71165) DEBUG PluginLoader Loading plugin "/workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/mocha-runner" (matched with expression @stryker-mutator/*)
+13:02:29 (71165) DEBUG PluginLoader Loading plugin "/workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/typescript" (matched with expression @stryker-mutator/*)
+13:02:29 (71165) DEBUG PluginLoader Loading plugins /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/html-reporter
+13:02:29 (71165) DEBUG PluginLoader Loading plugins /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/mocha-framework
+13:02:29 (71165) DEBUG PluginLoader Loading plugins /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/mocha-runner
+13:02:29 (71165) DEBUG PluginLoader Loading plugins /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/typescript
+13:02:30 (71165) DEBUG PluginLoader Loading plugins /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/node_modules/@stryker-mutator/core/src/reporters/index.js
+13:02:30 (71165) DEBUG MochaOptionsLoader Mocha < 6 detected. Using custom logic to parse mocha options
+13:02:30 (71165) INFO MochaOptionsLoader Loading mochaOpts from "/workspace/restfulWebServicesWithTypescript/Chapter06/order-api/test/mocha.opts"
+13:02:30 (71165) DEBUG MochaOptionsLoader Ignoring option "--full-trace" as it is not supported.
+13:02:30 (71165) DEBUG MochaOptionsLoader Ignoring option "--bail" as it is not supported.
+13:02:30 (71165) DEBUG MochaOptionsLoader Ignoring option "test/**/*.spec.ts" as it is not supported.
+13:02:30 (71165) INFO TypescriptConfigEditor Loading tsconfig file /workspace/restfulWebServicesWithTypescript/Chapter06/order-api/tsconfig.json
